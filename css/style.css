@@ -1,0 +1,124 @@
+/*FONTES:*/
+
+@font-face {
+    font-family: batman1;
+    src: url(../assets/batmfa__.ttf);
+ }
+
+ @font-face {
+    font-family: batman2;
+    src: url(../assets/batmfo__.ttf);
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+/***************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'batman1';
+    background-color: #E4F2E9;
+    color: #1F1F1D;
+}
+
+#main {
+    width: 85%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #80b69f;
+}
+
+#title {
+    text-align: center;
+    font-size: 5em;
+}
+
+#main p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+#img-div {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #E4F2E9;
+    
+}
+
+#img-div figcaption {
+    margin-top: 10px;
+}
+
+#image {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px ;
+}
+
+#tribute-info {
+    width: 95%;
+    margin: 30px 0 auto;
+    padding: 15px;
+    text-align: center;
+    background-color: #E4F2E9;
+    border-radius: 10px;
+}
+
+#tribute-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+#tribute-info h3 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
+#tribute-info p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-family: 'Tektur';
+}
+
+#tribute-info ul {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: 'Tektur';
+    list-style-position: inside;
+}
+
+#tribute-info li {
+    margin-bottom: 10px;
+}
+
+.span-list {
+    font-family: 'batman1';
+    font-size: 15px;
+}
+
+#h3-link {
+    margin-top: 25px;
+    text-align: center !important;
+}
+
+#tribute-link, .tribute-link{
+    text-decoration: none;
+    color: black;
+}
+
+#tribute-link:hover, .tribute-link:hover {
+    color: red;
+}
